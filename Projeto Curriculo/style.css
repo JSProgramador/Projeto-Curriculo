@@ -1,0 +1,135 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  background-color: black;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 35px;
+}
+.body{
+  background-color: burlywood;
+}
+.logo-rock {
+  display: flex;
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  width: 50px;
+}
+.buttons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 25px;
+}
+.btnHeader {
+  text-decoration: none;
+  background-color: black;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 7px;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.btnHeader:hover {
+  border-color: white;
+  background-color: white;
+  color: black;
+}
+.itens{
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+.profile{
+  padding: 70px;
+  border: 7px;
+  border-color: black;
+}
+.conteiner-img{
+  display: flex;
+  flex: auto;
+  border: 3px;
+  border-color: black;
+  height: 400px;
+}
+.profile-img{
+  border-top: 2px solid;
+  border-left: 2px solid;
+  border-right: 2px solid;
+  border-radius: 25px 25px 0px 0px;
+  border-color: black;
+}
+.conteiner-txt{
+  background-color: whitesmoke;
+  border: 2px solid;
+  border-radius: 0px 0px 25px 25px;
+}
+.name{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.tech-lang{
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 17px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.description{
+  margin-top: 10px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.aboutme{
+  margin-right: 50px;
+}
+.lang{
+  text-align: left;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: underline;
+}
+.text1{
+  text-align: justify;
+  font-size: 18px;
+}
+.text2{
+  margin-top: 15px;
+  text-align: justify;
+  font-size: 18px;
+}
+.logo-conteiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+.logo-item {
+  justify-content: center;
+  align-items: center;
+}
+.logo-insta {
+  height: 350px;
+  width: 350px;
+}
+.logo-twitter {
+  height: 413px;
+  width: 420px;
+}
